@@ -53,15 +53,9 @@ GenConn Technoceuticals, Cincinnati, OH
 5. Computer Hardware Systems & Components
 6. People Skills & Friendly, Helpful Attitude
 
----
-title: Code block
-nav_order: 5
----
-
 #### Code block
 
 *Ex 1*
-
 
 ```html
 <div class="class">
