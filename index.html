@@ -2,82 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
   <title>Tori Iurina</title>
 </head>
 <body>
-<header class="header">
-  <h1>Tori Iurina</h1>
-  <div class="user-photo">
-    <img src="./img/user-photo.jpg" alt="photo">
-  </div>
-  <ul class="user-info">
-    <li><span>Date of birth:</span><span> 11/11/1993</span></li>
-    <li><span>Address:</span><span> Carl Marx 28, Milan 20153, Italy</span></li>
-    <li><span>Phone number:</span><a href="tel:+79991234567"> +7 (999) 123-45-67</a></li>
-    <li><span>Email address:</span><a href="mailto:tori.iurina@yandex.ru">tori.iurina@yandex.ru</a></li>
-  </ul>
-</header>
-<main>
-  <article class="">
-    <h2>Summary of Qualifications</h2>
-    <div>Energetic IT technician at a warehouse of over 300 factory employees.
-      3+ years of experience with factory instruments and office hardware,
-      software, and network connectivity. Increased performance by 5% after
-      spearheading a building-wide OS upgrade. Seeking to leverage wide
-      spectrum of IT knowledge and tech skills to become the next
-      IT technician at Cellubop Gershwin Enterprises.</div>
-  </article>
-  <article>
-    <h2>Work Experience</h2>
-    <h3>IT Technician</h3>
-    <div class="">January 2018–July 2019
-      GenConn Technoceuticals, Cincinnati, OH</div>
-  </article>
-  <article>
-    <h2>Key Qualifications & Responsibilities</h2>
-    <ul>
-      <li>Maintained hardware performance, network connectivity, and software updates in a factory of 300+ workers.</li>
-      <li>Took over onboarding classes for factory hardware for all new employees.</li>
-      <li>Diagnosed issues with warehouse-critical hardware and software, including handheld computers and station-specific systems.</li>
-    </ul>
-  </article>
-  <article>
-    <h2>Key Achievements</h2>
-    <ul>
-      <li>Key Achievements</li>
-      <li>Replaced receiving team’s handheld computers, coming in $5,000 under budget while purchasing devices which are guaranteed to last over 5 years.</li>
-    </ul>
-  </article>
-  <article>
-    <h2>Education</h2>
-    <ul class="">
-      <li>
-        <span>Bachelor of Arts in Information Technology Systems</span>
-        <span>New Mexico State University, Las Cruces, NM</span>
-      </li>
-      <li>
-        <span>Graduation:</span> 2015
-      </li>
-      <li><span>Relevant Coursework:</span> Information Systems and Organizations, Networking and Telecommunications for 2020, Technological Integration and Problem Solving, Information Systems Cyber Security, Wireless Networking, Database Management Systems, IT Technical Foundations.</li>
-    </ul>
-  </article>
-  <article>
-    <h2>Key Skills</h2>
-    <ul class="">
-      <li>Troubleshooting & Problem Solving</li>
-      <li>Onsite & Remote Technical Support</li>
-      <li>Up-to-Date Knowledge of Computer Operating Systems</li>
-      <li>LAN & WAN Connectivity & Maintenance</li>
-      <li>Computer Hardware Systems & Components</li>
-      <li>People Skills & Friendly, Helpful Attitude</li>
-      <li>English level: B1</li>
-    </ul>
-  </article>
-  <article>
-    <h2>Code blocks</h2>
-    <section>
-      <h3>javascript</h3>
-      <pre>
+<section class="page-content">
+  <header class="header">
+    <h1 class="title">Tori Iurina</h1>
+    <div class="header__item">
+      <div class="user-photo">
+        <img class="photo" src="./img/user-photo.jpg" alt="photo">
+      </div>
+      <ul class="user-info-list">
+        <li class="user-info-list__item"><span class="point-title">Date of birth:</span> 11/11/1993;</li>
+        <li class="user-info-list__item"><span class="point-title">Address:</span> Carl Marx 28, Milan 20153, Italy;
+        </li>
+        <li class="user-info-list__item"><span class="point-title">Phone number:</span><a href="tel:+79991234567"> +7
+          (999) 123-45-67;</a></li>
+        <li class="user-info-list__item"><span class="point-title">Email address:</span><a
+          href="mailto:tori.iurina@yandex.ru"> tori.iurina@yandex.ru;</a></li>
+      </ul>
+    </div>
+  </header>
+  
+  <main class="main">
+    <article class="main__block">
+      <h2 class="subtitle">Summary of Qualifications</h2>
+      <p>Energetic IT technician at a warehouse of over 300 factory employees.
+        3+ years of experience with factory instruments and office hardware,
+        software, and network connectivity.</p>
+      <p>Increased performance by 5% after
+        spearheading a building-wide OS upgrade. Seeking to leverage wide
+        spectrum of IT knowledge and tech skills to become the next
+        IT technician at Cellubop Gershwin Enterprises.</p>
+    </article>
+    <article class="main__block">
+      <h2 class="subtitle">Work Experience</h2>
+      <h3>IT Technician</h3>
+      <p>January 2018–July 2019 GenConn Technoceuticals, Cincinnati, OH</p>
+    </article>
+    <article class="main__block">
+      <h2 class="subtitle">Key Qualifications & Responsibilities</h2>
+      <ul class="list">
+        <li class="list__item">Maintained hardware performance, network connectivity, and software updates in a factory
+          of 300+ workers.
+        </li>
+        <li class="list__item">Took over onboarding classes for factory hardware for all new employees.</li>
+        <li class="list__item">Diagnosed issues with warehouse-critical hardware and software, including handheld
+          computers and station-specific systems.
+        </li>
+      </ul>
+    </article>
+    <article class="main__block">
+      <h2 class="subtitle">Key Achievements</h2>
+      <ul class="list">
+        <li class="list__item">Increased performance by 5% by spearheading warehouse-wide upgrade of computer systems
+          from OS 3.5 to OS 4.1.
+        </li>
+        <li class="list__item">Replaced receiving team’s handheld computers, coming in $5,000 under budget while
+          purchasing devices which are guaranteed to last over 5 years.
+        </li>
+      </ul>
+    </article>
+    <article class="main__block">
+      <h2 class="subtitle">Education</h2>
+      <ul class="list">
+        <li class="list__item">Bachelor of Arts in Information Technology Systems</li>
+        <li class="list__item">New Mexico State University, Las Cruces, NM</li>
+        <li class="list__item">
+          <span class="point-title">Graduation:</span> 2015
+        </li>
+        <li class="list__item"><span class="point-title">Relevant Coursework:</span> Information Systems and
+          Organizations, Networking and Telecommunications for 2020, Technological Integration and Problem Solving,
+          Information Systems Cyber Security, Wireless Networking, Database Management Systems, IT Technical
+          Foundations.
+        </li>
+      </ul>
+    </article>
+    <article class="main__block">
+      <h2 class="subtitle">Key Skills</h2>
+      <ul class="list">
+        <li class="list__item">Troubleshooting & Problem Solving</li>
+        <li class="list__item">Onsite & Remote Technical Support</li>
+        <li class="list__item">Up-to-Date Knowledge of Computer Operating Systems</li>
+        <li class="list__item">LAN & WAN Connectivity & Maintenance</li>
+        <li class="list__item">Computer Hardware Systems & Components</li>
+        <li class="list__item">People Skills & Friendly, Helpful Attitude</li>
+        <li class="list__item">English level: B1</li>
+      </ul>
+    </article>
+    <article class="main__block">
+      <h2 class="subtitle">Code blocks</h2>
+      <section>
+        <h3>JavaScript</h3>
+        <pre>
       function unique(arr) {
         let result = [];
 
@@ -89,10 +111,10 @@
         return result;
       }
     </pre>
-    </section>
-    <section>
-      <h3>json</h3>
-      <pre>
+      </section>
+      <section>
+        <h3>JSON</h3>
+        <pre>
         {"widget": {
             "debug": "on",
             "window": {
@@ -126,16 +148,24 @@
             }
         }}
       </pre>
-    </section>
-  </article>
-</main>
-<footer class="page-footer">
-  <div class="line"></div>
-  <a href="https://your-github-account.github.io/rsschool-cv/">My GitHub</a>
-  <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="logo"></a>
-  <div class="copyright">
-    ⓒ Tori Iurina 2021
-  </div>
-</footer>
+      </section>
+    </article>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__line"></div>
+    <div class="logo">
+      <a href="https://rs.school/js/">
+        <img src="./img/rs_school_js.svg" alt="logo">
+      </a>
+    </div>
+    <a class="page-footer__link" href="https://ToriIurina.github.io/rsschool-cv/">
+      Welcome to My GitHub
+    </a>
+    <div class="page-footer__line page-footer__line_sm"></div>
+    <div class="copyright">
+      ⓒ Tori Iurina 2021
+    </div>
+  </footer>
+</section>
 </body>
 </html>
