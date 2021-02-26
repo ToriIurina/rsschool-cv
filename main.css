@@ -33,7 +33,7 @@ li {
 }
 .page-content {
   max-width: 1140px;
-  padding: 80px 10px 0;
+  padding: 0 10px;
   margin: 0 auto;
 }
 .header {
@@ -41,6 +41,7 @@ li {
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 80px ;
   margin-bottom: 80px;
 }
 .header__item {
